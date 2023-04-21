@@ -1,8 +1,7 @@
+import 'package:buy_books_online/shared/app_color.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
-
-import 'package:buy_books_online/shared/app_color.dart';
 
 class PageContainer extends StatelessWidget {
   final String title;
@@ -40,7 +39,6 @@ class PageContainer extends StatelessWidget {
     );
   }
 }
-
 // class NavigatorProvider extends StatelessWidget {
 //   const NavigatorProvider({super.key});
 
